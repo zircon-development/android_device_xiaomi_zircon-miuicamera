@@ -7,6 +7,10 @@
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/zircon-miuicamera/zircon-miuicamera-vendor.mk)
 
+# Overlay
+PRODUCT_PACKAGES += \
+    PixelLauncherOverlayMiuiCamera
+
 # Priv-app permission
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
