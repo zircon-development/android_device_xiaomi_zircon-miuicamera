@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from zircon OS1.0.7.0.UNOMIXM
+# All unpinned blobs below are extracted from zircon OS2.0.4.0.VNOMIXM
 
 product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk
 system/etc/public.libraries-xiaomi.txt
